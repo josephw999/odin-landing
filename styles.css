@@ -1,3 +1,33 @@
-div {
-background-color: 1E2067;
+*{
+    border: 1px solid red;
+}
+
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+}
+.links-container{
+    display:flex;
+    width: 200px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.margin{
+    margin: 0% 10% 0% 10%;
+}
+
+.body1 {
+background-color: #1E2067;
+color: #f4f4f4;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+body{
+    margin:0;
 }
