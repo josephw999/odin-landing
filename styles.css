@@ -1,11 +1,19 @@
 *{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     font-family: arial;
 }
 
 .flex-container{
     display:flex;
     justify-content: space-between;
+}
+
+.box{
+    margin: auto;
+    border: 3px solid rgb(69, 124, 226);
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
 }
 .links-container{
     display:flex;
@@ -16,16 +24,28 @@
 }
 
 .margin{
-    margin: 0% 10% 0% 10%;
+    margin: 0% 15% 0% 15%;
 }
 
-.margin2{
-    margin: 5% 10% 5% 10%;
+.padding{
+    padding: 5% 15% 5% 15%;
+}
+.padding2{
+    padding: 2% 20% 3% 20%;
+}
+.padding3{
+    padding: 5% 20% 3% 20%;
 }
 
 .body1 {
 background-color: #1d213b;
 color: #f4f4f4;
+}
+.body3 {
+    background-color: #cccccc;
+    }
+.biggerText{
+    font-size:150%;
 }
 
 a {
@@ -53,4 +73,13 @@ button{
     color: #f4f4f4;
     border-radius: 5px;
     padding: .3rem .8rem .3rem .8rem;
+    border: 0px;
+}
+.center{
+    text-align:center;
+    padding: 0% 0% 3% 0%;
+}
+.flex-right{
+    display: flex;
+    justify-content:right;
 }
