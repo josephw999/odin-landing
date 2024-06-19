@@ -1,5 +1,6 @@
 *{
     border: 1px solid red;
+    font-family: arial;
 }
 
 .flex-container{
@@ -18,8 +19,12 @@
     margin: 0% 10% 0% 10%;
 }
 
+.margin2{
+    margin: 5% 10% 5% 10%;
+}
+
 .body1 {
-background-color: #1E2067;
+background-color: #1d213b;
 color: #f4f4f4;
 }
 
@@ -30,4 +35,22 @@ a {
 
 body{
     margin:0;
+}
+
+h1{
+    margin:0;
+}
+
+p{
+    margin:0 0 1rem 0;
+}
+img{
+    width: 140px;
+}
+
+button{
+    background-color:rgb(28, 103, 165);
+    color: #f4f4f4;
+    border-radius: 5px;
+    padding: .3rem .8rem .3rem .8rem;
 }
